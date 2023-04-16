@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/AlexiFeng/gitblog</id><title>RSS feed of AlexiFeng's gitblog</title><updated>2023-04-15T18:55:13.197743+00:00</updated><author><name>AlexiFeng</name><email>654973939@qq.com</email></author><link href="https://github.com/AlexiFeng/gitblog"/><link href="https://raw.githubusercontent.com/AlexiFeng/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/AlexiFeng/gitblog/issues/11</id><title>[Raw域去噪]（1）ISP的流程</title><updated>2023-04-15T18:55:13.586017+00:00</updated><content type="html"><![CDATA[<p>在SIAT做了一个AI-ISP的项目，我负责的是raw域的去噪，与我们常见的ai算法不同，它是直接作用于相机原始数据的。更偏底层，在做的过程中也对ISP有了一点了解。在这里写下一个入门笔记，仅供参考。</p>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/AlexiFeng/gitblog</id><title>RSS feed of AlexiFeng's gitblog</title><updated>2023-04-16T07:11:32.050783+00:00</updated><author><name>AlexiFeng</name><email>654973939@qq.com</email></author><link href="https://github.com/AlexiFeng/gitblog"/><link href="https://raw.githubusercontent.com/AlexiFeng/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/AlexiFeng/gitblog/issues/11</id><title>[Raw域去噪]ISP的流程及raw图片处理</title><updated>2023-04-16T07:11:32.526827+00:00</updated><content type="html"><![CDATA[<p>在SIAT做了一个AI-ISP的项目，我负责的是raw域的去噪，与我们常见的ai算法不同，它是直接作用于相机原始数据的。更偏底层，在做的过程中也对ISP有了一点了解。在这里写下一个入门笔记，仅供参考。</p>
 <hr />
 <p>从宏观角度来讲，我们看到的照片通常经历了如下一个流程：光通过镜头打到CMOS传感器上，得到原始数据（Bayer Mosaic）-》Demosaic-》白平衡，Gamma校正...</p>
 <blockquote>
@@ -13,9 +13,9 @@
 其实这个操作我觉得很像normalize之后再还原回去。
 附上一个参考代码</p>
 <p>另外demosaic之后的图片通常需要转成8位才能使用opencv之类的库直接显示图像。</p>
-]]></content><link href="https://github.com/AlexiFeng/gitblog/issues/11" rel="alternate"/><category term="Image"/><category term="TODO"/><published>2023-04-15T18:54:36+00:00</published></entry><entry><id>https://github.com/AlexiFeng/gitblog/issues/10</id><title>记录一些我觉得很厉害的人</title><updated>2023-04-15T18:55:13.771787+00:00</updated><content type="html"><![CDATA[<p><a href="https://blog.csdn.net/hanss2">https://blog.csdn.net/hanss2</a>
+]]></content><link href="https://github.com/AlexiFeng/gitblog/issues/11" rel="alternate"/><category term="Image"/><category term="TODO"/><published>2023-04-15T18:54:36+00:00</published></entry><entry><id>https://github.com/AlexiFeng/gitblog/issues/10</id><title>记录一些我觉得很厉害的人</title><updated>2023-04-16T07:11:32.747216+00:00</updated><content type="html"><![CDATA[<p><a href="https://blog.csdn.net/hanss2">https://blog.csdn.net/hanss2</a>
 之前在搜401毕业论文Latex模板的时候搜到的这个人。震惊于其的学习效率及博客产出量大质量高。</p>
 <p><a href="https://github.com/yihong0618/gitblog">https://github.com/yihong0618/gitblog</a>
 该博客的原作者，同样觉得他的博客更新的很勤。都是很自律的dalao。</p>
-]]></content><link href="https://github.com/AlexiFeng/gitblog/issues/10" rel="alternate"/><published>2023-04-15T05:46:18+00:00</published></entry><entry><id>https://github.com/AlexiFeng/gitblog/issues/6</id><title>ceshiyixa</title><updated>2023-04-15T18:55:13.921653+00:00</updated><content type="html"><![CDATA[<p>妈妈咪呀</p>
+]]></content><link href="https://github.com/AlexiFeng/gitblog/issues/10" rel="alternate"/><published>2023-04-15T05:46:18+00:00</published></entry><entry><id>https://github.com/AlexiFeng/gitblog/issues/6</id><title>ceshiyixa</title><updated>2023-04-16T07:11:32.968003+00:00</updated><content type="html"><![CDATA[<p>妈妈咪呀</p>
 ]]></content><link href="https://github.com/AlexiFeng/gitblog/issues/6" rel="alternate"/><published>2023-04-15T03:45:50+00:00</published></entry></feed>
