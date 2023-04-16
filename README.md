@@ -9,6 +9,3 @@ CIAE&SIAT研究生在读,目前在做CV方向.对研究落地更感兴趣,坚信
 - [ceshiyixa](https://github.com/AlexiFeng/gitblog/issues/6)--2023-04-15
 ## Image
 - [[Raw域去噪]ISP的流程及raw图片处理](https://github.com/AlexiFeng/gitblog/issues/11)--2023-04-15
-## TODO
-TODO list from [[Raw域去噪]ISP的流程及raw图片处理](https://github.com/AlexiFeng/gitblog/issues/11) all done
-
