@@ -35,3 +35,7 @@ def raw2png(raw,path)
     dst=cv2.cvtColor(raw.astype("uint8"), cv2.COLOR_BayerBG2BGR)#我之前看文档，这一步应该直接就做demosaic了
     cv2.imwrite(str(path), dst)
 ```
+
+## Bayer格式之间互转
+参考这个库https://github.com/Jiaming-Liu/BayerUnifyAug
+**由于算法的关系（具体可以看仓库指向的论文）Bayer互转后分辨率会稍有变化，当你在numpy resize的时候格式不再是原来分辨率。可以在转完之后直接print一下现在的shape
