@@ -4,6 +4,7 @@ CIAE&SIAT研究生在读,目前在做CV方向.对研究落地更感兴趣,坚信
 ---
 *forked from yihong0618/gitblog*
 ## 最近更新
+- [pytorch的多卡训练的模型在测试的时候不能直接运行](https://github.com/AlexiFeng/gitblog/issues/12)--2023-04-23
 - [[Raw域去噪]ISP的流程及raw图片处理](https://github.com/AlexiFeng/gitblog/issues/11)--2023-04-15
 - [记录一些我觉得很厉害的人](https://github.com/AlexiFeng/gitblog/issues/10)--2023-04-15
 - [ceshiyixa](https://github.com/AlexiFeng/gitblog/issues/6)--2023-04-15

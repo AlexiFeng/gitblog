@@ -1,5 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/AlexiFeng/gitblog</id><title>RSS feed of AlexiFeng's gitblog</title><updated>2023-04-16T07:26:55.308508+00:00</updated><author><name>AlexiFeng</name><email>654973939@qq.com</email></author><link href="https://github.com/AlexiFeng/gitblog"/><link href="https://raw.githubusercontent.com/AlexiFeng/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/AlexiFeng/gitblog/issues/11</id><title>[Raw域去噪]ISP的流程及raw图片处理</title><updated>2023-04-16T07:26:55.745419+00:00</updated><content type="html"><![CDATA[<p>去年年底的时候做了一个AI-ISP的项目，我负责的是raw域的去噪。与我们常见的ai算法不同，它是直接作用于相机原始数据的，更偏向底层数据处理，这也让我在做的过程中也对ISP部分有了一点了解。在这里写下一个入门笔记，仅供参考。</p>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/AlexiFeng/gitblog</id><title>RSS feed of AlexiFeng's gitblog</title><updated>2023-04-23T07:49:05.325478+00:00</updated><author><name>AlexiFeng</name><email>654973939@qq.com</email></author><link href="https://github.com/AlexiFeng/gitblog"/><link href="https://raw.githubusercontent.com/AlexiFeng/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/AlexiFeng/gitblog/issues/12</id><title>pytorch的多卡训练的模型在测试的时候不能直接运行</title><updated>2023-04-23T07:49:05.580424+00:00</updated><content type="html"><![CDATA[<p>这个坑遇到过两次了，多卡联合训练的时候模型直接存储会多一个module。很多时候用dataparallel测试不太现实。
+解决办法1：</p>
+<pre><code class="language-python"># save model
+if num_gpu ==  1:
+    torch.save(model.module.state_dict(), &#x27;net.pth&#x27;)
+ else:
+    torch.save(model.state_dict(),  &#x27;net.pth&#x27;)
+</code></pre>
+<p>办法2：
+把训练好的模型里的model字符删除(我目前用的主要是这种）反正也不麻烦。</p>
+<pre><code class="language-python">pth = torch.load(&#x27;./626.pth&#x27;)
+from collections import OrderedDict
+new_state_dict = OrderedDict()
+for k, v in pth.items():
+    name =  k[7:] # remove  &#x27;module&#x27;
+    new_state_dict[name]=v
+model.load_state_dict(new_state_dict)
+model.eval()
+</code></pre>
+<blockquote>
+<p>原文链接：<a href="https://blog.csdn.net/szn1316159505/article/details/129225188">https://blog.csdn.net/szn1316159505/article/details/129225188</a></p>
+</blockquote>
+]]></content><link href="https://github.com/AlexiFeng/gitblog/issues/12" rel="alternate"/><published>2023-04-23T07:48:37+00:00</published></entry><entry><id>https://github.com/AlexiFeng/gitblog/issues/11</id><title>[Raw域去噪]ISP的流程及raw图片处理</title><updated>2023-04-23T07:49:05.727205+00:00</updated><content type="html"><![CDATA[<p>去年年底的时候做了一个AI-ISP的项目，我负责的是raw域的去噪。与我们常见的ai算法不同，它是直接作用于相机原始数据的，更偏向底层数据处理，这也让我在做的过程中也对ISP部分有了一点了解。在这里写下一个入门笔记，仅供参考。</p>
 <hr />
 <p>从宏观角度来讲，我们看到的照片通常经历了如下一个流程：光通过镜头打到CMOS传感器上-》得到原始数据（Bayer Mosaic）-》Demosaic-》白平衡，Gamma校正...-》出图</p>
 <h2>光打到CMOS传感器上</h2>
@@ -28,9 +50,9 @@ def raw2png(raw,path)
 <h2>Bayer格式之间互转</h2>
 <p>参考这个库https://github.com/Jiaming-Liu/BayerUnifyAug
 **由于算法的关系（具体可以看仓库指向的论文）Bayer互转后分辨率会稍有变化，当你在numpy resize的时候格式不再是原来分辨率。可以在转完之后直接print一下现在的shape</p>
-]]></content><link href="https://github.com/AlexiFeng/gitblog/issues/11" rel="alternate"/><category term="Image"/><published>2023-04-15T18:54:36+00:00</published></entry><entry><id>https://github.com/AlexiFeng/gitblog/issues/10</id><title>记录一些我觉得很厉害的人</title><updated>2023-04-16T07:26:55.943144+00:00</updated><content type="html"><![CDATA[<p><a href="https://blog.csdn.net/hanss2">https://blog.csdn.net/hanss2</a>
+]]></content><link href="https://github.com/AlexiFeng/gitblog/issues/11" rel="alternate"/><category term="Image"/><published>2023-04-15T18:54:36+00:00</published></entry><entry><id>https://github.com/AlexiFeng/gitblog/issues/10</id><title>记录一些我觉得很厉害的人</title><updated>2023-04-23T07:49:05.869326+00:00</updated><content type="html"><![CDATA[<p><a href="https://blog.csdn.net/hanss2">https://blog.csdn.net/hanss2</a>
 之前在搜401毕业论文Latex模板的时候搜到的这个人。震惊于其的学习效率及博客产出量大质量高。</p>
 <p><a href="https://github.com/yihong0618/gitblog">https://github.com/yihong0618/gitblog</a>
 该博客的原作者，同样觉得他的博客更新的很勤。都是很自律的dalao。</p>
-]]></content><link href="https://github.com/AlexiFeng/gitblog/issues/10" rel="alternate"/><published>2023-04-15T05:46:18+00:00</published></entry><entry><id>https://github.com/AlexiFeng/gitblog/issues/6</id><title>ceshiyixa</title><updated>2023-04-16T07:26:56.183919+00:00</updated><content type="html"><![CDATA[<p>妈妈咪呀</p>
+]]></content><link href="https://github.com/AlexiFeng/gitblog/issues/10" rel="alternate"/><published>2023-04-15T05:46:18+00:00</published></entry><entry><id>https://github.com/AlexiFeng/gitblog/issues/6</id><title>ceshiyixa</title><updated>2023-04-23T07:49:05.990248+00:00</updated><content type="html"><![CDATA[<p>妈妈咪呀</p>
 ]]></content><link href="https://github.com/AlexiFeng/gitblog/issues/6" rel="alternate"/><published>2023-04-15T03:45:50+00:00</published></entry></feed>
