@@ -1,5 +1,40 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/AlexiFeng/gitblog</id><title>RSS feed of AlexiFeng's gitblog</title><updated>2023-05-10T05:29:44.594147+00:00</updated><author><name>AlexiFeng</name><email>654973939@qq.com</email></author><link href="https://github.com/AlexiFeng/gitblog"/><link href="https://raw.githubusercontent.com/AlexiFeng/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/AlexiFeng/gitblog/issues/14</id><title>raw去噪终于做完了！！！！</title><updated>2023-05-10T05:29:44.870683+00:00</updated><content type="html"><![CDATA[<p>我得承认raw去噪这个项目给我快做秃了，前期主要是熟悉项目及流程还好。后面的话完全是在虚空索敌。
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/AlexiFeng/gitblog</id><title>RSS feed of AlexiFeng's gitblog</title><updated>2023-06-25T18:26:12.544812+00:00</updated><author><name>AlexiFeng</name><email>654973939@qq.com</email></author><link href="https://github.com/AlexiFeng/gitblog"/><link href="https://raw.githubusercontent.com/AlexiFeng/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/AlexiFeng/gitblog/issues/15</id><title>I'm back.</title><updated>2023-06-25T18:26:12.976094+00:00</updated><content type="html"><![CDATA[<p>我摸鱼大概摸了一个月？差不多。这怎么都6月26日了，我什么时候从大连回深圳的我都没印象了。感觉自己好像断片了一个月一样。
+7月10日左右好像还有中期，我是不是得准备一下。</p>
+<p>这一个月除了玩游戏什么也没做，还有完全的拒绝沟通，拒绝和所有人沟通，所有人，我爸我妈，导师，组里的人，所有所有的人。
+我不是故意的，在我内心好像我做错了什么事情一样，我不敢去面对任何人。对不起。</p>
+<p>Join the black parade alone.
+<img src="https://github.com/AlexiFeng/gitblog/assets/16517113/bcccc473-9fd6-4225-a382-de4645a3f658" alt="image" /></p>
+<hr />
+<p>我突然回想起我上高中的事情，其实我语文成绩突然提高并不一定全是宋词的功劳。还有一个原因是高一的时候我突然开始写日记和qq空间的日志，写很多。说实话那个文笔我看着比我现在好多了，我现在写的啥破流水账。
+反正就是综合原因提升的水平吧。</p>
+<hr />
+<p>我现在戴着森海的二代大馒头听nightwish的歌，听的是Nemo.感觉还是这个耳机听歌有感觉，虽然戴久了耳朵疼。第一次接触nightwish还是甜咖啡制作的cs的mv。
+梦回小学了这波是hhh</p>
+<hr />
+<p>我发现一个非常准的评测我是否在状态的指标，就是我不在状态的时候不会听歌。那段时间（几天，几周）都不会听。
+一旦我开始想正经的事，我就会开始听歌。</p>
+<hr />
+<p>这段时间喜欢在河边坐着，这个坐着的行为与沉迷玩游戏呈现了很明显的反差，说明我在尝试逃离目前的这种断片的状态。</p>
+<p>在河边坐着也引申出来了夜跑的想法。上周我的想法是能跑则跑，跑不了走一走也是好的。
+这周开始我决定制定目标，比如说穿着我的rider25，这周总共跑10km。</p>
+<blockquote>
+<p>想想高中和大学的自己从来不关注穿的什么鞋，笑死。也是那个时候没胖，光脚跑都没问题。</p>
+</blockquote>
+<p>今晚第一次跑，我得承认我现在是真的跑不动，我跑一公里都费老劲了。今天死活才凑出来2.5km。深刻体会到了什么叫：我胖了，但是我小腿没胖。它撑着以前的我还差不多，现在它真的撑不住啊。
+没事，我相信只要开始就会逐渐进步，贵在坚持。而且我虽然跑不动，但好消息是我这两次跑的挺开心的，有点回到之前的感觉。而且每次一开始跑我就会思考人生，嗯，我从小就这样。</p>
+<hr />
+<blockquote>
+<p>I'm in love with my lust,
+burning angel wings to dust.
+——Wish I had an angel  ,Nightwish</p>
+</blockquote>
+<p>这句歌词我可太熟悉了。</p>
+<hr />
+<p>我这是意识流写作？感觉内容怎么残缺不堪的。</p>
+<hr />
+<p>没事，只要开始做怎么都不晚，对吧。我觉得我还是挺有信心的。</p>
+]]></content><link href="https://github.com/AlexiFeng/gitblog/issues/15" rel="alternate"/><category term="吐槽"/><published>2023-06-25T18:25:39+00:00</published></entry><entry><id>https://github.com/AlexiFeng/gitblog/issues/14</id><title>raw去噪终于做完了！！！！</title><updated>2023-06-25T18:26:13.173594+00:00</updated><content type="html"><![CDATA[<p>我得承认raw去噪这个项目给我快做秃了，前期主要是熟悉项目及流程还好。后面的话完全是在虚空索敌。
 甲方的结果是基于多帧图像进行去噪的，而我是单帧图像去噪。这就意味着在高噪声环境下我就不可能比他效果好。举个极端例子。
 <img src="https://github.com/AlexiFeng/gitblog/assets/16517113/28311aec-7a3e-4073-9ddd-5f2e73014324" alt="image" />
 这是我的原图像。但这用多帧去噪的结果呢？
@@ -8,7 +43,7 @@
 这就是我这段时间在进行的虚空索敌，一直在尽可能优化我的效果，但我根本不知道什么时候是个头。我跟导师说过不止一次，我能保证看得到的细节我都比对方好。但是我没法评价一张图片，因为有些已经被高噪盖住的信息我不可能给他恢复出来。
 这段时间真的搞的很累，肉眼可见的憔悴。总算是大概差不多终于结束了。
 okk</p>
-]]></content><link href="https://github.com/AlexiFeng/gitblog/issues/14" rel="alternate"/><published>2023-05-10T05:29:15+00:00</published></entry><entry><id>https://github.com/AlexiFeng/gitblog/issues/13</id><title>how to use pytorch to train model with DistributedDataParallel </title><updated>2023-05-10T05:29:45.004725+00:00</updated><content type="html"><![CDATA[<p>Many nouns are also used in course &quot;Parallel Computing&quot;</p>
+]]></content><link href="https://github.com/AlexiFeng/gitblog/issues/14" rel="alternate"/><category term="吐槽"/><published>2023-05-10T05:29:15+00:00</published></entry><entry><id>https://github.com/AlexiFeng/gitblog/issues/13</id><title>how to use pytorch to train model with DistributedDataParallel </title><updated>2023-06-25T18:26:13.361813+00:00</updated><content type="html"><![CDATA[<p>Many nouns are also used in course &quot;Parallel Computing&quot;</p>
 <pre><code class="language-python">parser = argparse.ArgumentParser()
 parser.add_argument(&quot;--local_rank&quot;, default=-1)
 FLAGS = parser.parse_args()
@@ -31,7 +66,7 @@ model = DDP(model, device_ids=[local_rank], output_device=local_rank)  #use DDP
     meg.save(model.module, save_path+str(cur_epoch)+ &quot;.pth&quot;)
 </code></pre>
 <p>then should use barrier?I've no idea.</p>
-]]></content><link href="https://github.com/AlexiFeng/gitblog/issues/13" rel="alternate"/><category term="TODO"/><category term="python"/><published>2023-05-04T15:52:59+00:00</published></entry><entry><id>https://github.com/AlexiFeng/gitblog/issues/12</id><title>pytorch的多卡训练的模型在测试的时候不能直接运行</title><updated>2023-05-10T05:29:45.153296+00:00</updated><content type="html"><![CDATA[<p>这个坑遇到过两次了，多卡联合训练的时候模型直接存储会多一个module。很多时候用dataparallel测试不太现实。
+]]></content><link href="https://github.com/AlexiFeng/gitblog/issues/13" rel="alternate"/><category term="TODO"/><category term="python"/><published>2023-05-04T15:52:59+00:00</published></entry><entry><id>https://github.com/AlexiFeng/gitblog/issues/12</id><title>pytorch的多卡训练的模型在测试的时候不能直接运行</title><updated>2023-06-25T18:26:13.553951+00:00</updated><content type="html"><![CDATA[<p>这个坑遇到过两次了，多卡联合训练的时候模型直接存储会多一个module。很多时候用dataparallel测试不太现实。
 解决办法1：</p>
 <pre><code class="language-python"># save model
 if num_gpu ==  1:
@@ -53,7 +88,7 @@ model.eval()
 <blockquote>
 <p>原文链接：<a href="https://blog.csdn.net/szn1316159505/article/details/129225188">https://blog.csdn.net/szn1316159505/article/details/129225188</a></p>
 </blockquote>
-]]></content><link href="https://github.com/AlexiFeng/gitblog/issues/12" rel="alternate"/><category term="python"/><published>2023-04-23T07:48:37+00:00</published></entry><entry><id>https://github.com/AlexiFeng/gitblog/issues/11</id><title>[Raw域去噪]ISP的流程及raw图片处理</title><updated>2023-05-10T05:29:45.296936+00:00</updated><content type="html"><![CDATA[<p>去年年底的时候做了一个AI-ISP的项目，我负责的是raw域的去噪。与我们常见的ai算法不同，它是直接作用于相机原始数据的，更偏向底层数据处理，这也让我在做的过程中也对ISP部分有了一点了解。在这里写下一个入门笔记，仅供参考。</p>
+]]></content><link href="https://github.com/AlexiFeng/gitblog/issues/12" rel="alternate"/><category term="python"/><published>2023-04-23T07:48:37+00:00</published></entry><entry><id>https://github.com/AlexiFeng/gitblog/issues/11</id><title>[Raw域去噪]ISP的流程及raw图片处理</title><updated>2023-06-25T18:26:13.747785+00:00</updated><content type="html"><![CDATA[<p>去年年底的时候做了一个AI-ISP的项目，我负责的是raw域的去噪。与我们常见的ai算法不同，它是直接作用于相机原始数据的，更偏向底层数据处理，这也让我在做的过程中也对ISP部分有了一点了解。在这里写下一个入门笔记，仅供参考。</p>
 <hr />
 <p>从宏观角度来讲，我们看到的照片通常经历了如下一个流程：光通过镜头打到CMOS传感器上-》得到原始数据（Bayer Mosaic）-》Demosaic-》白平衡，Gamma校正...-》出图</p>
 <h2>光打到CMOS传感器上</h2>
@@ -82,7 +117,7 @@ def raw2png(raw,path)
 <h2>Bayer格式之间互转</h2>
 <p>参考这个库https://github.com/Jiaming-Liu/BayerUnifyAug
 **由于算法的关系（具体可以看仓库指向的论文）Bayer互转后分辨率会稍有变化，当你在numpy resize的时候格式不再是原来分辨率。可以在转完之后直接print一下现在的shape</p>
-]]></content><link href="https://github.com/AlexiFeng/gitblog/issues/11" rel="alternate"/><category term="Image"/><published>2023-04-15T18:54:36+00:00</published></entry><entry><id>https://github.com/AlexiFeng/gitblog/issues/10</id><title>记录一些我觉得很厉害的人</title><updated>2023-05-10T05:29:45.430193+00:00</updated><content type="html"><![CDATA[<p><a href="https://blog.csdn.net/hanss2">https://blog.csdn.net/hanss2</a>
+]]></content><link href="https://github.com/AlexiFeng/gitblog/issues/11" rel="alternate"/><category term="Image"/><published>2023-04-15T18:54:36+00:00</published></entry><entry><id>https://github.com/AlexiFeng/gitblog/issues/10</id><title>记录一些我觉得很厉害的人</title><updated>2023-06-25T18:26:13.941420+00:00</updated><content type="html"><![CDATA[<p><a href="https://blog.csdn.net/hanss2">https://blog.csdn.net/hanss2</a>
 之前在搜401毕业论文Latex模板的时候搜到的这个人。震惊于其的学习效率及博客产出量大质量高。</p>
 <p><a href="https://github.com/yihong0618/gitblog">https://github.com/yihong0618/gitblog</a>
 该博客的原作者，同样觉得他的博客更新的很勤。都是很自律的dalao。</p>
